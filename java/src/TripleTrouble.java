@@ -1,4 +1,5 @@
 public class TripleTrouble {
+    // https://www.codewars.com/kata/triple-trouble-1/train/java
 
     public static void main(String[] args) {
         System.out.println(TripleDouble(451909888277L, 41177722899L));
