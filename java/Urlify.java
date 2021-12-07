@@ -8,6 +8,7 @@ class Urlify {
         System.out.println(urlify("test".toCharArray(), 4));
     }
 
+    // time complexity: O(n), space complexity: O(1)
     private static String urlify(char str[], int finalLength) {
         int newIndex = str.length - 1;
         int numSpacesFound = 0;

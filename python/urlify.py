@@ -2,6 +2,7 @@
 at the end to hold the additional characters, and that you are given the "true" length of the string.
 """
 
+# time complexity: O(n), space complexity: O(1)
 def urlify(string):
     return string.strip().replace(' ', "%20");
 
