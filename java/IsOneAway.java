@@ -46,7 +46,6 @@ class IsOneAway {
     // time complexity: O(n), space complexity: O(1)
     private static boolean isOneAway(String str1, String str2) {
         int lengthDifference = Math.abs(str1.length() - str2.length());
-        boolean hasDifferenceBeenFound = false;
 
         if (lengthDifference == 0) {
             return isOneAwayEqualLength(str1, str2);
