@@ -24,6 +24,9 @@ class RemoveDups {
 
     // time complexity: O(n), space complexity: O(n)
     private static void removeDuplicates(MyLinkedList<Integer> list) {
+        if (list.head.next == null) {
+            return;
+        }
         Hashtable<Integer, Boolean> valueToExistenceTable = new Hashtable<Integer, Boolean>();
         MyNode<Integer> prevNode = null;
         MyNode<Integer> currentNode = list.head;
