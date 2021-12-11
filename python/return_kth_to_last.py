@@ -1,6 +1,8 @@
 from linked_list import LinkedList
 
-# time_complexity: O(n), space_complexity: O(1)
+# Implement an algorithm to find the kth to last element of a singly linked list
+
+# time complexity: O(n), space complexity: O(1)
 def return_kth_to_last(list, k):
     node_index = list.count - k - 1
     current_node = list.head
@@ -11,7 +13,7 @@ def return_kth_to_last(list, k):
     return current_node
 
 
-# time_complexity: O(n), space_complexity: O(1)
+# time complexity: O(n), space complexity: O(1)
 def return_kth_to_last_without_count(list, k):
     current_node = list.head
     runner = list.head
