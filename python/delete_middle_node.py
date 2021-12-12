@@ -1,5 +1,8 @@
 from linked_list import LinkedList
 
+# Implement an algorithm to delete a node in the middle of a singly linked list,
+# given only access to that node
+
 # time complexity: O(1), space complexity: O(1)
 def delete_middle_node(node):
     if node == None or node.next == None:
