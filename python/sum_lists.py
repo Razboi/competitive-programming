@@ -54,7 +54,6 @@ def sum_lists_forward_using_heads(longest_list, node_longest_list, node_shortest
             if prev_node_longest_list:
                 prev_node_longest_list.data += value_carried
             else:
-                new_head = Node(value_carried)
                 longest_list.add(value_carried)
 
         node_longest_list.data = result
