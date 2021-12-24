@@ -8,6 +8,9 @@ class LinkedList:
 
     def add(self, data):
         node = Node(data)
+        self.add_node(node)
+
+    def add_node(self, node):
         node.next = self.head
         self.head = node
         self.count += 1
