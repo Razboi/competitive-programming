@@ -20,6 +20,10 @@ class MyLinkedList<T> {
 
 	public void add(T data) {
 		MyNode<T> node = new MyNode<T>(data);
+		this.add(node);
+	}
+
+	public void add(MyNode node) {
 		node.next = head;
 		this.head = node;
 		this.length += 1;

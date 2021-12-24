@@ -7,7 +7,7 @@ Return the intersecting node. The intersection is defined by reference.
 
 def get_last_node(list):
     current_node = list_1.head
-    while current_node != None:
+    while current_node.next != None:
         current_node = current_node.next
     return current_node
 
